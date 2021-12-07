@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  /* background: url(https://zochil.mn/static/media/bg1.2c7122ce.jpg) center
+    center;
+  animation: animate-left-to-right 60s linear infinite; */
+
+}
+
+.App{ 
+  font-family: "Nunito",sans-serif;
+  font-size: 16px;
+  color:#161c2d;
+}

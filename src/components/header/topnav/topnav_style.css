@@ -1,0 +1,46 @@
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-container{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+ text-decoration: none;   
+}
+
+#topnav .nav_menu{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#topnav .logo{
+    float: left;
+    color: #3c4858!important;
+    padding: 10px 0 0;
+    
+}
+
+#topnav .nav_menu li{
+    display: block;
+    color: #3c4858;
+    font-size: 13px;
+    background-color: transparent!important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: all .5s;
+    font-family: "Nunito",sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}

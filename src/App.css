@@ -67,12 +67,12 @@ p {
 }
 
 .bg{
-  background-image: url(https://zochil.mn/static/media/bg1.2c7122ce.jpg);
+  /* background-image: url(https://zochil.mn/static/media/bg1.2c7122ce.jpg);
     background-size: cover;
     align-self: center;
     position: relative;
     background-position: 50%;
 
     transition:all 2s ease;
-   
+    */
 }

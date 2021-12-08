@@ -1,13 +1,22 @@
 import './App.css';
+import Navbar from './components/header/navbar/navbar';
 import Body from './components/body/body';
-import Topnav from './components/header/topnav/topnav';
+import Footer from './components/footer/footer';
+// import hdrBdy from './components/body/hdrBdy';
 
 function App() {
   return (
-    <div className="App">
-      <Topnav />
+    <>
+    <div className="bg">
+      <Navbar />
+    
+     
       <Body />
-    </div>
+      </div>
+      <Footer />
+      
+ 
+    </>
   );
 }
 

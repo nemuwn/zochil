@@ -1,0 +1,35 @@
+
+.body{
+    padding: 170px 0;
+    
+
+}
+
+.align{
+    align-items: center!important;
+    display: flex;
+    
+/* }flex-wrap: wrap; */
+}
+
+.title_desc{
+    flex: 0 0 auto;
+    width: 50%;
+
+    padding-right:10%;
+    padding-left: 5%;
+}
+
+.white-text{
+    font-size: 18px;
+    color: hsla(0,0%,100%,.5)!important;
+}
+
+.title_text{
+    color: #fff;
+    font-weight: 700!important;
+}
+
+h1{
+    font-size: 42px!important;
+}

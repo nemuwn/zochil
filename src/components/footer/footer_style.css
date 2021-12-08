@@ -1,0 +1,42 @@
+.footer{
+    background-color: white;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer_row{
+    justify-content: center!important;
+    display: flex;
+    position: relative;
+}
+
+.ftr{
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.icon_text{
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    display: flex!important
+}
+
+.ft_title_desc{
+    flex: 1 1;
+}
+
+.icon{
+    margin-right: 1rem!important;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+} 
+
+.footer_desc{
+    color: #8492a6!important;
+}
+
+.icon_text{
+    padding-right: 10%;
+}

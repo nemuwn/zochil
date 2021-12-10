@@ -1,6 +1,62 @@
 .body {
-  padding: 170px 0;
-  background-color: cadetblue;
+  padding: 190px 0;
+  /* background-color: cadetblue; */
+  background: linear-gradient(
+      0deg,
+      rgba(59, 66, 95, 0.7),
+      rgba(59, 66, 95, 0.7)
+    ),
+    url("https://zochil.mn/static/media/bg1.2c7122ce.jpg") center center;
+
+  animation: animatedBackground 10s linear infinite;
+  -moz-animation: animatedBackground 10s linear infinite;
+  -webkit-animation: animatedBackground 10s linear infinite;
+  -ms-animation: animatedBackground 10s linear infinite;
+  -o-animation: animatedBackground 10s infinite;
+
+  align-self: center;
+  position: relative;
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300px 0;
+  }
+}
+@-moz-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300px 0;
+  }
+}
+@-webkit-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300px 0;
+  }
+}
+@-ms-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300px 0;
+  }
+}
+@-o-keyframes animatedBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -300px 0;
+  }
 }
 
 .align {
@@ -14,8 +70,8 @@
   flex: 0 0 auto;
   width: 50%;
 
-  padding-right: 10%;
-  padding-left: 5%;
+  padding-right: 15%;
+  padding-left: 0;
 }
 
 .white-text {
@@ -30,4 +86,81 @@
 
 h1 {
   font-size: 42px !important;
+}
+
+.formB {
+  position: relative;
+  background: white;
+  border: 0 !important;
+  border-radius: 5px;
+  /* margin: 40px; */
+  padding: 1.5rem;
+
+  width: 380px;
+
+  box-shadow: 0 0 3px rgba(60, 72, 88, 0.15) !important;
+  box-sizing: border-box;
+}
+
+.form_title {
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+.form_desc {
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form1 {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.form_label {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.input_form {
+  position: relative !important;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: #dee2e6;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+.form-control {
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  background-color: #fff !important;
+  padding-left: 1rem !important;
+  padding: 0.375rem 0.75rem;
+  color: #212529;
 }
